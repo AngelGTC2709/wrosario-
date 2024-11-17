@@ -4,12 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stale.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <title>Glosario</title>
 </head>
 <body>
-    <h1>Glosario
-    <p class="sub">HTML</p>    
+        <h1 class="titu">Glosario
+            <nav>
+                <p class="sub">
+                <button onclick="location.href='#subti'" id="boton1">HTML</button>
+                </p>
+                <p class="sub">
+                <button onclick="location.href='#subtil'" id="boton2">CSS</button>
+                </p>
+                <p class="sub">
+                <button onclick="location.href='#subtif'" id="boton3">GITBASH</button>
+                </p>
+                <p class="sub">
+                <button onclick="location.href='#subtia'" id="boton4">TERMINAL</button>
+                </p>
+            </nav>
+        </hi>
     <h1>
+        <p id="subti">html</p> 
         <article class="cuadro">
             <h2 class="separado">
                 !
@@ -45,6 +63,7 @@
                     acction
                     <li id="texto">
                         Especifica la URL a la que se enviará un formulario
+                    </li>
                     </ul>
                 </p>
             </h2>
@@ -138,7 +157,11 @@
                     <li id="texto">
                         Especifica la URL de un enlace.
                     </li>
-                    </uldd>
+                        height
+                    <li id="texto">
+                        Define la altura de un elemento.
+                    </li>
+                    </ul>
                 </p>
             </h2>
             <h2 class="separado">
@@ -149,55 +172,699 @@
                     <li id="texto" >
                         Define un identificador único para un elemento HTML.
                     </li>
-                    checked
+                        img
                     <li id="texto" >
-                    Indica que un input de tipo radio o checkbox debe estar marcado por defecto.
+                        La etiqueta img se utiliza para incrustar una imagen en una página HTML.
+                        Las imágenes no se insertan técnicamente en una página web; Imágenes están enlazados a páginas web.
+                        La etiqueta crea un espacio de retención para la imagen a la que se hace referencia.
                     </li>
-                    content
+                        input
                     <li id="texto">
-                    Proporciona un valor asociado con el atributo name o http-equiv en un elemento "meta"
+                        Define o especifica un campo de entrada en el que el usuario puede introducir datos
                     </li>
                     </ul>
                 </p>
             </h2>       
             <h2 class="separado">
-                F
+                L
                 <p>
                     <ul id="subtitulo">
-                        class
+                        li
                     <li id="texto" >
-                        Asigna una o más clases a un elemento, permitiendo aplicar estilos CSS o realizar manipulaciones con JavaScript
+                        Define un elemento de lista.
+                        La etiqueta se utiliza dentro de listas ordenadas (ol) listas desordenadas (ul) y en Listas de menús (menú).
                     </li>
-                        checked
+                        link
                     <li id="texto" >
-                        Indica que un input de tipo radio o checkbox debe estar marcado por defecto.
+                        La etiqueta define el relación entre el documento actual y un documento externo recurso.
+                        se utiliza con mayor frecuencia para vincular a hojas de estilo externas o para agregar un favicon a su sitio web.
                     </li>
-                        content
+                        list
                     <li id="texto">
-                        Proporciona un valor asociado con el atributo name o http-equiv en un elemento "meta"
+                        Asocia un campo de entrada con una lista de opciones predefinidas
                     </li>
                     </ul>
                 </p>
             </h2> 
             <h2 class="separado">
-                F
+                M
                 <p>
                     <ul id="subtitulo">
-                        class
+                        main
                     <li id="texto" >
-                        Asigna una o más clases a un elemento, permitiendo aplicar estilos CSS o realizar manipulaciones con JavaScript
+                        La etiqueta especifica el contenido principal de un documento.
+                        debe ser único para el documento. 
+                        No debe contener ningún contenido que se repita en los documentos, 
+                        como barras laterales, enlaces de navegación, información de derechos
+                         de autor, logotipos de sitios y formularios de búsqueda.
                     </li>
-                        checked
+                        meta
                     <li id="texto" >
-                        Indica que un input de tipo radio o checkbox debe estar marcado por defecto.
-                    </li>
-                        content
-                    <li id="texto">
-                        Proporciona un valor asociado con el atributo name o http-equiv en un elemento "meta"
+                        La etiqueta define los metadatos sobre un Documento HTML. Los metadatos son datos (información) sobre datos.
+                        "meta" siempre van dentro del elemento "head", y se utilizan normalmente para especificar el conjunto de caracteres,
+                        la descripción de la página, palabras clave, autor del documento y configuración de la ventanilla.
                     </li>
                     </ul>
                 </p>
             </h2>
+            <h2 class="separado">
+                N
+                <p>
+                    <ul id="subtitulo">
+                        nav
+                    <li id="texto" >
+                        La etiqueta define un conjunto de enlaces de navegación
+                        Los navegadores, como los lectores de pantalla para usuarios 
+                        discapacitados, pueden usar este elemento para Determine 
+                        si desea omitir la representación inicial de este contenido.
+                    </li>
+                    name
+                    <li id="texto" >
+                        Especifica el nombre del elemento de formulario, utilizado
+                        para identificar los datos cuando se envía el formulario.
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                O
+                <p>
+                    <ul id="subtitulo">
+                        ol
+                    <li id="texto" >
+                        La etiqueta "ol" define una lista ordenada.
+                    </li>
+                </p>
+            </h2>  
+            <h2 class="separado">
+                P
+                <p>
+                    <ul id="subtitulo">
+                        p
+                    <li id="texto" >
+                        La etiqueta define un párrafo
+                    </li>
+                        picture
+                    <li id="texto" >
+                        La etiqueta "picture" ofrece a los desarrolladores 
+                        web más flexibilidad a la hora de especificar
+                         Recursos de imagen
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                S
+                <p>
+                    <ul id="subtitulo">
+                        samp
+                    <li id="texto" >
+                        La etiqueta se utiliza para definir la salida de muestra 
+                        de un programa informático. El contenido del interior se 
+                        muestra en la fuente monoespaciada predeterminada del navegador.
+                    </li>
+                        style
+                    <li id="texto" >
+                        La etiqueta style se utiliza para definir la información
+                        de estilo (CSS) para un documento.
+                    </li>
+                        src
+                    <l id="texto">
+                        Especifica la URL de un recurso externo, como una imagen o un script.
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                T
+                <p>
+                    <ul id="subtitulo">
+                        title
+                    <li id="texto" >
+                        Define el título del documento
+                    </li>
+                        type
+                    <li id="texto" >
+                        Especifica el tipo de elemento (text, submit, checkbox, etc.).
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                u
+                <p>
+                    <ul id="subtitulo">
+                        ul
+                    <li id="texto" >
+                        Define una lista desordenada.
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                V
+                <p>
+                    <ul id="subtitulo">
+                        value
+                    <li id="texto" >
+                        Especifica el valor inicial de un elemento de formulario.
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                W
+                <p>
+                    <ul id="subtitulo">
+                        width
+                    <li id="texto" >
+                        Define la anchura de un elemento.
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+        </article>
+    </h1>
+    <h1>
+        <p id="subtil">css</p> 
+        <article class="cuadro">
+            <h2 class="separado">
+                A
+                <p>
+                    <ul id="subtitulo">
+                        aline-content
+                        <li id="texto" >
+                            Controla el alineamiento de un contenedor flexible (flexbox/grid).
+                        </li>
+                        all
+                        <li id="texto" >
+                            Resetea todas las propiedades (excepto las propiedades
+                             unicode-bidi y direction) al valor inicial o a valores heredados.
+                        </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                B
+                <p>
+                    <ul id="subtitulo">
+                        background
+                    <li id="texto" >
+                        La etiqueta  a define 
+                        un hipervínculo, que se utiliza para enlazar de una página a otra.
+                    </li>
+                        background-color
+                    <li id="texto" >
+                        La etiqueta article se utilisa para especificar contenido independiente y autónomo.
+                    </li>
+                        border
+                    <li id="texto" >
+                        Proporciona un texto alternativo para una imagen, que se muestra si la imagen no puede cargarse.
+                    </li>
+                        border-bottom
+                    <li id="texto">
+                        Define todos los valores del borde inferior de un elemento
+                    </li>  
+                        border-bottom-color
+                    <li id="texto">
+                        Define el color del borde inferior de un elemento
+                    </li> 
+                        border-bottom-left-radius
+                    <li id="texto">
+                        Define el radio del borde inferior izquierdo de un elemento.
+                    </li>   
+                        border-bottom-right-radius
+                    <li id="texto">
+                        Define el radio del borde inferior derecho de un elemento.
+                    </li> 
+                        border-color
+                    <li id="texto">
+                        Define el color de los bordes de un elemento.
+                    </li> 
+                        border-top-left-radius
+                    <li id="texto">
+                        Define el radio del borde superior izquierdo de un elemento.
+                    </li> 
+                        border-top-right-radius
+                    <li id="texto">
+                        Define el radio del borde superior derecho de un elemento.
+                    </li> 
+                        bottom
+                    <li id="texto">
+                        Define la posición del borde inferior de un elemento posicionado.
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                C
+                <p>
+                    <ul id="subtitulo">
+                        color
+                    <li id="texto" >
+                        Define el color del texto
+                    </li>
+                        ontent
+                    <li id="texto" >
+                        Inserta contenido generado en un elemento.
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                D
+                <p>
+                    <ul id="subtitulo">
+                        display
+                    <li id="texto" >
+                        Define el tipo de caja de un elemento (bloque, en línea, flex, etc.)
+                    </li>
+                        direction
+                    <li id="texto" >
+                        Define la dirección del texto
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                F
+                <p>
+                    <ul id="subtitulo">
+                        flex
+                    <li id="texto" >
+                        Especifica cómo un elemento crece, encoge o se distribuye en flexbox.
+                    </li>
+                        font-family
+                    <li id="texto" >
+                        Especifica la familia tipográfica.
+                    </li>
+                        font-size
+                    <li id="texto" >
+                        Tamaño del texto.
+                    </li>
+                        font-weight
+                    <li id="texto" >
+                        Grosor del texto.
+                    </li>
+                        float
+                    <li id="texto">
+                        Define si un elemento debe ser flotante y en qué dirección.
+                    </li>
+                        font
+                    <li id="texto">
+                        Una abreviatura para establecer todas las propiedades de fuente en una sola línea.
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                G
+                <p>
+                    <ul id="subtitulo">
+                        gap
+                    <li id="texto" >
+                        Espaciado entre elementos en un contenedor grid o flexbox.
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                H
+                <p>
+                    <ul id="subtitulo">
+                        height
+                    <li id="texto" >
+                        define la altura de un elemento
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                J
+                <p>
+                    <ul id="subtitulo">
+                        justify-content
+                    <li id="texto" >
+                        Alinea los elementos flexibles a lo largo del eje principal del contenedor.
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                L
+                <p>
+                    <ul id="subtitulo">
+                        left
+                    <li id="texto" >
+                        Define la posición del borde izquierdo de un elemento posicionado.
+                    </li>
+                        list-style-type
+                    <li id="texto" >
+                        Define el tipo de marcador de lista (círculo, cuadrado, decimal, etc.).
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                M
+                <p>
+                    <ul id="subtitulo">
+                        margin
+                    <li id="texto" >
+                        Define el margen alrededor de un elemento.
+                    </li>
+                        max-width
+                    <li id="texto" >
+                        Define la anchura máxima del elemento.
+                    </li>
+                        max-height
+                    <li id="texto">
+                        Define la altura máxima de un elemento
+                    </li>
+                        min-height
+                    <li id="texto">
+                        Define la altura minima de un elemento
+                    </li>
+                        min-wedth
+                    <li id="texto">
+                        Define la anchura minima de un elemento
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                O
+                <p>
+                    <ul id="subtitulo">
+                        opacity
+                    <li id="texto" >
+                        Define el nivel de opacidad/transparencia de un elemento.
+                    </li>
+                        order
+                    <li id="texto" >
+                        Define el orden en que un elemento flexible aparece 
+                        dentro de su contenedor flexible
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                P
+                <p>
+                    <ul id="subtitulo">
+                        pandding
+                    <li id="texto" >
+                        Una abreviatura para definir todos los valores 
+                        de relleno en una sola línea.
+                    </li>
+                        padding-left
+                    <li id="texto" >
+                        Define el relleno izquierdo de un elemento
+                    </li>
+                        padding-right
+                    <li id="texto" >
+                        Define el relleno derecho de un elemento
+                    </li>
+                        padding-bottom
+                    <li id="texto" >
+                        Define el relleno inferior de un elemento
+                    </li>
+                        position
+                    <li id="texto" >
+                        Define la posicion del elemento
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                R
+                <p>
+                    <ul id="subtitulo">
+                        resize
+                    <li id="texto" >
+                        Define si un elemento puede ser redimensionado por el usuario.
+                    </li>
+                        right
+                    <li id="texto" >
+                        Define la posición del borde derecho de un elemento posicionado.
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                T
+                <p>
+                    <ul id="subtitulo">
+                        text-align
+                    <li id="texto" >
+                        Define la alineación horizontal del texto.
+                    </li>
+                        text-decaration
+                    <li id="texto" >
+                        Define las decoraciones del texto (subrayado, línea sobre el texto, etc.).
+                    </li>
+                        top
+                    <li id="texto" >
+                        Define la posición del borde superior de un elemento posicionado.
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                U
+                <p>
+                    <ul id="subtitulo">
+                            user-select
+                        <li id="texto" >
+                            Define si el contenido del elemento puede ser seleccionado por el usuario.
+                        </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                W
+                <p>
+                    <ul id="subtitulo">
+                            width
+                        <li id="texto" >
+                            Define si el contenido del elemento puede ser seleccionado por el usuario.
+                        </li>
+                    </ul>
+                </p>
+            </h2>
+        </article>
+    </h1>
+    <h1>
+        <p id="subtif">GITBASH</p> 
+        <article class="cuadro">
+            <h2 class="separado">
+                A
+                <p>
+                    <ul id="subtitulo">
+                        add 
+                        <li id="texto" >
+                            git add Añade archivos al área de preparación (staging)
+                        </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                C
+                <p>
+                    <ul id="subtitulo">
+                      clone
+                    <li id="texto" >
+                        git clone https://github.com/usuario
+                        /repositorio.git 
+                        Clona un repositorio remoto a tu 
+                        máquina local.
+                    </li>
+                        commit
+                    <li id="texto" >
+                        git commit -m "Mensaje del commit" 
+                        Guarda los cambios en el historial 
+                        del repositorio
+                    </li>
+                        config
+                    <li id="texto" >
+                        git config --global user.name "Tu Nombre"
+                        git config --global user.email 
+                        "tuemail@ejemplo.com"
+                        Configura opciones de usuario en Git.
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                D
+                <p>
+                    <ul id="subtitulo">
+                        diff
+                    <li id="texto" >
+                        git diff
+                        Muestra las diferencias entre versiones de archivos.
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                I
+                <p>
+                    <ul id="subtitulo">
+                        init
+                    <il id="texto">
+                        git init
+                        crea un nuevo repositorio git 
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                M
+                <p>
+                    <ul id="subtitulo">
+                      mv
+                    <li id="texto" >
+                        git mv archivo-viejo.txt archivo-nuevo.txt
+                        Mueve o renombra archivos bajo control de Git.
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                P
+                <p>
+                    <ul id="subtitulo">
+                        Pull
+                    <li id="texto" >
+                        git pull origin main
+                        Descarga y fusiona cambios de un repositorio remoto.
+                    </li>
+                        push
+                    <li id="texto" >
+                        git push origin main
+                        Sube cambios locales a un repositorio remoto.
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                R
+                <p>
+                    <ul id="subtitulo">
+                        rm
+                    <li id="texto" >
+                        git rm archivo.txt
+                        Elimina archivos del repositorio
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                S
+                <p>
+                    <ul id="subtitulo">
+                        status
+                    <li id="texto" >
+                        git status
+                        Muestra el estado actual del repositorio.
+                    </li>
+                    </ul>
+                </p>
+            </h2>       
+        </article>
+    </h1>
+    <h1>
+        <p id="subtia">TERMINAL</p> 
+        <article class="cuadro">
+            <h2 class="separado">
+                C
+                <p>
+                    <ul id="subtitulo">
+                      cd
+                    <li id="texto" >
+                        ingresa a un directorio.
+                    </li>
+                        cd ..
+                    <li id="texto" >
+                        sale del directorio.
+                    </li>
+                        cd ../
+                    <li id="texto" >
+                        sale del directorio y ingresa a otro.
+                    </li>
+                        code .
+                    <li id="texto" >
+                        abre visual studio code.
+                    </li>
+                        cp
+                    <li id="texto" >
+                        copia archivos o directorio.
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                L
+                <p>
+                    <ul id="subtitulo">
+                        ls
+                    <li id="texto" >
+                        le los archivos que se encuentran en el directorio.
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                M
+                <p>
+                    <ul id="subtitulo">
+                        mkdir
+                    <li id="texto">
+                        crea un nuevo directorio.
+                    </li>
+                        mv
+                    <li id="texto">
+                        cambia el nombre del directorio o archivo.
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                R
+                <p>
+                    <ul id="subtitulo">
+                      rm
+                    <li id="texto" >
+                        es para eliminar un archivo.
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                T
+                <p>
+                    <ul id="subtitulo">
+                        touch
+                    <li id="texto" >
+                        crea un nuevo archivos,
+                         teniedo que agragar que tipo de achivo 
+                         queremos o nesesitamos(.py, .html, .txt, .png, .java)
+                    </li>
+                    </ul>
+                </p>
+            </h2>
+            <h2 class="separado">
+                P
+                <p>
+                    <ul id="subtitulo">
+                        pwd
+                    <li id="texto" >
+                        nos dise donde nos encontramos
+                    </li>
+                    </ul>
+                </p>
+            </h2>     
         </article>
     </h1>
 </body>

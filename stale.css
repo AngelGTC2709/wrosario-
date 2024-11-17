@@ -1,36 +1,143 @@
 body{
-    background-color: #B0D0D3;
-    font-family: monaco,Consolas,Lucida Console,monospace;
+    background-color: #040404;
     text-align: center;
-    
+    font-family: "Chakra Petch", serif;
+}
+.titu{
+    color: #119DA4;
+    position: static ;
+    font-family: "Chakra Petch", serif;
 }
 .separado{
     width: 200px;
     height: auto;
-    border: 4px outset snow;
+    border: 4px outset #119DA4;
     padding: 4px;
     margin: 8px;
     display: inline-block;
     border-radius: 15px;
     border-top-left-radius: 40px;
     border-end-end-radius: 40px;
-    background-color: rgb(119, 0, 255);
+    background-color: #13505B;
     top: 40px;
+    padding-top: 20px;
+    position: static;
+    font-family: "Chakra Petch", serif;
     
 }
 .sub{
-    width: 80px;
+    width: 120px;
     height: 20px;
-    border: 4px outset snow;
+    border: 4px outset #119DA4;
     padding: 4px;
     margin: 8px;
     border-radius: 15px;
     border-top-left-radius: 40px;
     border-end-end-radius: 40px;
-    background-color: rgb(90, 0, 194);
+    background-color: #13505B;
     display: inline-block;
     text-align: center;
     font-size: medium;
+    position: static ;
+    font-family: "Chakra Petch", serif;
+}
+#subti{
+    width: 400px;
+    height:20px;
+    position: static;
+    border: 4px outset #119DA4;
+    padding: 4px;
+    margin: 8px;
+    border-radius: 15px;
+    border-top-left-radius: 40px;
+    border-end-end-radius: 40px;
+    background-color: #13505B;
+    display: inline-block;
+    text-align: center;
+    font-size: large;
+}
+#subtil{
+    width: 400px;
+    height:20px;
+    position: static;
+    border: 4px outset #119DA4;
+    padding: 4px;
+    margin: 8px;
+    border-radius: 15px;
+    border-top-left-radius: 40px;
+    border-end-end-radius: 40px;
+    background-color: #13505B;
+    display: inline-block;
+    text-align: center;
+    font-size: large;
+}
+#subtif{
+    width: 400px;
+    height:20px;
+    position: static;
+    border: 4px outset #119DA4;
+    padding: 4px;
+    margin: 8px;
+    border-radius: 15px;
+    border-top-left-radius: 40px;
+    border-end-end-radius: 40px;
+    background-color: #13505B;
+    display: inline-block;
+    text-align: center;
+    font-size: large;
+}
+#subtia{
+    width: 400px;
+    height:20px;
+    position: static;
+    border: 4px outset #119DA4;
+    padding: 4px;
+    margin: 8px;
+    border-radius: 15px;
+    border-top-left-radius: 40px;
+    border-end-end-radius: 40px;
+    background-color: #13505B;
+    display: inline-block;
+    text-align: center;
+    font-size: large;
+}
+#boton1{
+    width: 80px;
+    height: 20px;
+    border-bottom: none;
+    background-color: transparent;
+    border: 0px;
+    color: #040404;
+    font-family: "Chakra Petch", serif;
+    font-size: large;
+    text-align: center;
+}
+#boton2{
+    width: 80px;
+    height: 20px;
+    border-bottom: none;
+    background-color: transparent;
+    border: 0px;
+    font-family: "Chakra Petch", serif;
+    font-size: large;
+}
+#boton3{
+    width: 80px;
+    height: 20px;
+    border-bottom: none;
+    background-color: transparent;
+    border: 0px;
+    font-family: "Chakra Petch", serif;
+    font-size: large;
+}
+#boton4{
+    width: 80px;
+    height: 20px;
+    border-bottom: none;
+    background-color: transparent;
+    border: 0px;
+    font-family: "Chakra Petch", serif;
+    font-size: large;
 }
 #subtitulo{
     font-size: x-large;
@@ -39,12 +146,9 @@ body{
 #texto{
     font-size: x-small;
 }
-.cuadrado{
-    background-color: aliceblue;
-}
+
 p{
-    font-size: x-small;
+    font-size: small;
     background-color:  rgb(76, 0, 255) ;
-    font-size: x-small;
     text-align: start;
 }
